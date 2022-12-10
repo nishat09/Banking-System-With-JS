@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-3/4 mx-auto">
+    <h1 class="text-5xl text-center mt-16">Welcome to your profile man!!!</h1>
+
+
+    <div class="grid grid-cols-3 gap-4 mt-16 ">
+        <div class="bg-blue-300 w-3/4 p-8">
+            <h1 class="text-2xl text-center">Deposite</h1>
+            <h1  class="text-4xl text-center">$<span id="depo">0</span></h1>
+        
+        
+        </div>
+        <div class="bg-yellow-300 w-3/4 p-8">
+            <h1  class="text-2xl text-center">Withdraw</h1>
+            <h1  class="text-4xl text-center">$<span id="with">0</span></h1>
+        
+        
+        </div>
+        <div class="bg-green-300 w-3/4 p-8">
+            <h1 class="text-2xl text-center">Current Balance</h1>
+            <h1  class="text-4xl text-center">$<span id="balance">1280</span></h1>
+        
+        
+        </div>
+
+
+
+
+    </div>
+
+
+    <div class="grid grid-cols-2 mt-10 ">
+
+        <div class="hover:bg-green-400 w-3/4 pl-5 pb-2">
+            <h1 class="text-3xl mx-auto mb-4">Enter deposite amount</h1>
+
+            <input id="depo-input" class=" border hover:border-2 border-blue-400 rounded mb-2" type="number" placeholder="Enter Amount"> <br>
+
+            <button id="depo-btn" class="border hover:border-2 border-sky-500 px-2 rounded ">Confirm</button>
+
+        </div>
+
+
+
+        <div class="hover:bg-green-400 w-3/4 pl-5 pb-2">
+            <h1 class="text-3xl mx-auto mb-4">Enter withdraw amount</h1>
+
+            <input id="with-input" class=" border hover:border-2 border-yellow-400 rounded mb-2 " type="number" placeholder="Enter Amount"> <br>
+
+            <button id="with-btn" class="border hover:border-2 border-yellow-400 px-2 rounded ">Confirm</button>
+
+        </div>
+
+    </div>
+
+
+    <script src="functional.js"></script>
+</body>
+</html>
